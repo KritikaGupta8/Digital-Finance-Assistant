@@ -1,0 +1,109 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#f4f7fb;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.container{
+  width:400px;
+  background:#fff;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align:center;
+  margin-bottom:20px;
+  color:#333;
+}
+
+.balance-card{
+  background:#4a90e2;
+  color:white;
+  padding:20px;
+  border-radius:10px;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.summary{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.card{
+  width:48%;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  color:white;
+}
+
+.income{
+  background:#27ae60;
+}
+
+.expense{
+  background:#e74c3c;
+}
+
+.transaction-form{
+  margin-bottom:20px;
+}
+
+.transaction-form input,
+.transaction-form select{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  background:#4a90e2;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+button:hover{
+  background:#357abd;
+}
+
+.history ul{
+  list-style:none;
+}
+
+.history li{
+  background:#f1f1f1;
+  margin:10px 0;
+  padding:10px;
+  border-radius:5px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.plus{
+  border-right:5px solid green;
+}
+
+.minus{
+  border-right:5px solid red;
+}
